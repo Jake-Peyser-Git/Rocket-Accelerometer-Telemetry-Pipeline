@@ -10,7 +10,7 @@ Designed a wireless telemetry system using a Raspberry Pi Pico and WiFi-based da
 
 (5) Insert the data file into the MATLAB code in conjunction with the calibration gains/biases and run the script
 
-The output returns a plot of the raw and calibrated accelerometer data. That's it! This was an integrated sub-component of an engineering project at the Cooper Union, and so I also included the (supplementary) project report that went with it. 
+The output returns a plot of the raw and calibrated accelerometer data. That's it! This was an integrated sub-component of an engineering project at the Cooper Union, and so I also included the (supplementary) project report that went with it. See the appendix for the calibration algorithm explanation. 
 
 Much thanks to Mike Giglia @ the Cooper Union for his software guidance. 
 Another major thanks to my colleague David Brokhin for his essential hardware implementation design.
