@@ -1,4 +1,12 @@
-Upload C++ accelerometer script to the pico, run calibration protocol via python over WiFi/ethernet, collect data from CSV or excel file, preform post processing in MATLAB.
+Designed a wireless telemetry system using a Raspberry Pi Pico and WiFi-based data acquisition pipeline (Pico -> WiFi router -> PC) for 3-axis flight data with a calibration protocol for sensor bias, orientation determination, and axis scaling. This was accomplished via a combination of interconnected scripts across C++, Python, and MATLAB. The procedure was preformed as follows:
+
+(1) Set up wireless WiFi router and PC for data collection
+(2) Upload C++ accelerometer script to the pico-accelerometer unit, which instructs the pico to send accelerometer data packets to the set IP
+(3) Run the python calibration script while the accelerometer is at rest in 3 distinct orientations and collect the reported instrumentation gains/biases
+(4) Run the python crash test script, which prints the (desired) accelerometer data to the console and a CSV/excel file
+(5) Insert the data file into the MATLAB code in conjunction with the calibration gains/biases and run the script
+
+The output returns a plot of the raw and calibrated accelerometer data. That's it! 
 
 Much thanks to Mike Giglia @ the Cooper Union for his software guidance. 
 Another major thanks to my colleague David Brokhin for his hardware implementation design.
