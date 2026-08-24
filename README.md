@@ -12,7 +12,7 @@ Designed a wireless telemetry system using a Raspberry Pi Pico and WiFi-based da
 
 The output returns a plot of the raw and calibrated accelerometer data. That's it! This was an integrated sub-component of an engineering project at the Cooper Union, and so I also included the (supplementary) project report that went with it. See the appendix for the calibration algorithm documentation. 
 
-Much thanks to Mike Giglia @ the Cooper Union for his software guidance. 
+Much thanks to Mike Giglia @ the Cooper Union for his extremely helpful software guidance. 
 Another major thanks to my colleague David Brokhin for his essential hardware implementation design.
 
 Example pre/post calibration (400g) accelerometer plots:
